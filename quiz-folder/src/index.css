@@ -184,6 +184,40 @@ body {
 .text-center{
   text-align: center;
 }
+.authSwitch {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #004aa7;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.authSwitch:hover {
+  text-decoration: underline;
+}
+.authError {
+  margin: -8px 0 20px;
+  color: #b42318;
+  font-size: 14px;
+}
+.registrationComplete {
+  text-align: center;
+}
+.generatedUsername {
+  display: block;
+  margin: 16px 0;
+  padding: 14px;
+  border-radius: 10px;
+  background: #f0f4ff;
+  color: #004aa7;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  overflow-wrap: anywhere;
+}
+.registrationComplete .btn {
+  margin-top: 12px;
+}
 
 @media only screen and (max-width: 1400px) {
   .title {
