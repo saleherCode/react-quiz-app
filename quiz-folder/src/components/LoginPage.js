@@ -54,7 +54,7 @@ function LoginPage(props) {
         <> 
         {!loggedin ? 
         (
-        <div>
+        <div className="loginContent">
             <h2 className="title">Login</h2>
             <div className="LoginWrapper">            
                 <form onSubmit={formSubmitHandler}>
